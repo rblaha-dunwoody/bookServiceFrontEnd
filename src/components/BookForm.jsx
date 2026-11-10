@@ -161,7 +161,7 @@ function BookForm({ book, onSaved, onCancelEdit }) {
         <label>Price</label>
         <input
           type="number"
-          placeholder="14.99"
+          placeholder="e.g. 14.99"
           value={price}
           onChange={(event) =>
             handleFieldChange("price", event.target.value, setPrice)
