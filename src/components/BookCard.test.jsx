@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import BookCard from "./BookCard";
+import { describe, test, expect } from "vitest";
 
 describe("BookCard", () => {
   test("displays book information", () => {
